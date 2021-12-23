@@ -5,8 +5,8 @@ double mRound(double val) {
     return ((int)(val * 10 + 0.5)) / 10.0;
 }
 int main() {
-    double width;
-    scanf("%lf", &width);
-    printf("%.1f\n", mRound(width * width));
+    int mile;
+    scanf("%d", &mile);
+    printf("%.1f\n", mRound(mile * 1.6));
     return 0;
 }
